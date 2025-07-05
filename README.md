@@ -24,7 +24,6 @@ Trò chơi Pac-Man này có 3 màn hình chính:
   │ ├── menu.py
   │ ├── pathfinding.py
   │ └── main.py
-  ├── .gitignore
   ├── Tutorial.txt
   ├── README.md
   └── requirements.txt 
