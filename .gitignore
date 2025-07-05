@@ -1,0 +1,51 @@
+# =============================
+# Python & Pycache
+# =============================
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# =============================
+# Virtual environment
+# =============================
+env/
+.venv/
+venv/
+
+# =============================
+# VS Code settings
+# =============================
+.vscode/
+*.code-workspace
+
+# =============================
+# Logs and temporary files
+# =============================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =============================
+# OS-specific files
+# =============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================
+# Build / dist
+# =============================
+build/
+dist/
+*.egg-info/
+
+# =============================
+# Pygame media runtime cache
+# =============================
+*.mp3.cache
+*.wav.cache
+assets/cache/
+picture/cache/

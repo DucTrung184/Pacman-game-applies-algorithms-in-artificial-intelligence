@@ -1,0 +1,60 @@
+1. Yêu cầu hệ thống
+- Python: phiên bản 3.10 trở lên.
+- Thư viện cần cài đặt: pygame.
+- Phần mềm đề xuất: Visual Studio Code hoặc bất kỳ IDE nào hỗ trợ python.
+
+2. Cấu trúc thư mục
+Pacman-Astar/
+│
+├── _pycache_             # Folder lưu trữ các file bytecode đã biên dịch
+├── main.py               # Tệp chạy chính
+├── pacman.py             # Lớp Pacman
+├── ghost.py              # Lớp Ghost và hành vi
+├── pathfinding.py        # Thuật toán A* và BFS
+├── map_loader.py         # Đọc và vẽ bản đồ
+├── menu.py               # Màn hình menu và hướng dẫn
+├── map.txt               # File bản đồ game
+│
+├── Menu/                 # Ảnh nền, âm thanh menu và phông chữ
+│   ├── MainMenu.png
+│   ├── Tutorial.png
+│   ├── GameOver.png
+│   ├── Victory.png
+│   ├── MenuSound.mp3
+│   ├── IngameSound.mp3
+│   └── PressStart2P-Regular
+│
+├── Pacman/                # Ảnh pacman
+│   └── Pacman_open.png, Pacman_closed.png, PacmanHappy_open.png, PacmanHappy_closed.png, PacmanSurprise.png
+│
+├── Ghost/                # Ảnh ghost
+│   ├── Red.png, RedHappy.png, RedSurprise.png
+│   ├── Pink.png, PinkHappy.png, PinkSurprise.png
+│   └── Orange.png, OrangeHappy.png, OrangeSurprise.png
+│
+└── picture/              # Hình ảnh tường bản đồ và trái tim
+    ├── dọc.png, Ngang.png, Dưới phải.png, Dưới trái.png, Trên phải.png, Trên trái.png
+    ├── Cửa.png, TeleLeft.jpg, TeleRight.jpg
+    └── Heart.png
+
+3. Cách khởi chạy game 
+- Mở main.py bằng python 3.
+- Màn hình Menu chính sẽ hiển thị.
+- Nhấn Enter để vào phần hướng dẫn.
+- Đọc luật chơi và nhấn S để bắt đầu game.
+
+4. Hướng dẫn chơi
+- Di chuyển Pacman: Sử dụng các phím mũi tên để điều khiển.
+- Mục tiêu: Ăn hết các chấm (1) và viên năng lượng (2) để thắng.
+- Ghost:
+	+) Ghost sẽ đuổi theo bạn bằng AI:
+		* Ghost đỏ dùng A*.
+		* Ghost hồng dùng BFS.
+		* Ghost cam đuổi theo mục tiêu ngẫu nhiên.
+- Hunt Mode:
+	+) Khi ăn viên năng lượng (2), Pacman sẽ tạm thời có thể ăn ghost.
+	+) Ghost sẽ hoảng sợ và bỏ chạy.
+- Mạng sống: Pacman có 3 mạng, hiển thị bằng biểu tượng ❤️.
+- Kết thúc game:
+	+) Thắng khi ăn hết các viên năng lượng.
+	+) Thua khi mất hết mạng.
