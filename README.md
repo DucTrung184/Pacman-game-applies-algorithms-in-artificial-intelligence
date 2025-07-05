@@ -2,13 +2,6 @@
 
 Một phiên bản Pac-Man đơn giản được viết hoàn toàn bằng Python với thư viện Pygame, áp dụng các thuật toán trí tuệ nhân tạo để điều khiển ghost.
 
-## 🎮 Giới thiệu
-
-Trò chơi Pac-Man này có 3 màn hình chính:
-1. **Menu**: hiển thị hình nền + nhạc nền chào mừng
-2. **Hướng dẫn chơi (Tutorial)**: giải thích điều khiển và quy tắc
-3. **Trò chơi chính**: người chơi điều khiển Pac-Man bằng các phím mũi tên
-
 ## 🗂 Cấu trúc thư mục
 
 <pre> ```
@@ -28,6 +21,13 @@ Trò chơi Pac-Man này có 3 màn hình chính:
   ├── README.md
   └── requirements.txt 
   ``` </pre>
+
+## 🎮 Giới thiệu
+
+Trò chơi Pac-Man này có 3 màn hình chính:
+1. **Menu**: hiển thị hình nền + nhạc nền chào mừng
+2. **Hướng dẫn chơi (Tutorial)**: giải thích điều khiển và quy tắc
+3. **Trò chơi chính**: người chơi điều khiển Pac-Man bằng các phím mũi tên
 
 ## 🧠 AI Ghost Behavior
 
