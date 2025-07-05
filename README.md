@@ -75,7 +75,7 @@ Trò chơi Pac-Man này có 3 màn hình chính:
 | `Enter` | Vào màn hình hướng dẫn |
 | `S`     | Bắt đầu trò chơi |
 
-## Tác giả
+## 📝 Tác giả
 
-Mai Đình Đức Trung
-DucTrung184
+- **Mai Đình Đức Trung**
+- [DucTrung184](hhttps://github.com/DucTrung184)
