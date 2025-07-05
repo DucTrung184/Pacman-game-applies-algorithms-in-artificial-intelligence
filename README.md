@@ -62,9 +62,7 @@ Trong màn chơi chính, có 3 ghost:
 | `Enter` | Vào màn hình hướng dẫn |
 | `S`     | Bắt đầu trò chơi |
 
-## 🚀 Cài đặt & Chạy
+## Tác giả
 
-### 1. Cài đặt thư viện
-
-```bash
-pip install pygame
+Mai Đình Đức Trung
+DucTrung184
