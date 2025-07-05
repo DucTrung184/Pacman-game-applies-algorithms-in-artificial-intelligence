@@ -11,6 +11,25 @@ Trò chơi Pac-Man này có 3 màn hình chính:
 
 ## 🗂 Cấu trúc thư mục
 
+<pre> ```
+  ├── Pacman-Astar/
+  │ ├── Ghost (picture)
+  │ ├── Pacman (picture)
+  │ ├── Menu (picture, sound)
+  │ ├── picture
+  │ ├── map.txt
+  │ ├── map_loader.py
+  │ ├── pacman.py
+  │ ├── ghost.py
+  │ ├── menu.py
+  │ ├── pathfinding.py
+  │ └── main.py
+  ├── .gitignore
+  ├── Tutorial.txt
+  ├── README.md
+  └── requirements.txt 
+  ``` </pre>
+
 ## 🧠 AI Ghost Behavior
 
 Trong màn chơi chính, có 3 ghost:
