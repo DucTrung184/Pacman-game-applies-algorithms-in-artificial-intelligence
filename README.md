@@ -37,6 +37,7 @@ Dự án được tổ chức rõ ràng, toàn bộ game chạy trong môi trư�
   │ ├── menu.py
   │ ├── pathfinding.py
   │ └── main.py
+  ├── .gitignore
   ├── Tutorial.txt
   ├── README.md
   └── requirements.txt 
